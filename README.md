@@ -67,48 +67,6 @@ flowchart LR
 
 ```
 
-## 🖼️ Visualização de Dados
-
-```svg
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
-    <!-- Fundo -->
-    <rect width="800" height="600" fill="#f4f4f4"/>
-    
-    <!-- Título -->
-    <text x="400" y="50" text-anchor="middle" font-size="24" font-weight="bold">
-        Dashboard de Criptomoedas
-    </text>
-    
-    <!-- Gráfico de Linhas -->
-    <rect x="50" y="100" width="700" height="300" fill="white" stroke="#ddd"/>
-    <polyline 
-        points="
-            60,250 
-            150,200 
-            250,300 
-            350,180 
-            450,350 
-            550,250 
-            650,280 
-            750,220"
-        fill="none" 
-        stroke="#3498db" 
-        stroke-width="3"
-    />
-    
-    <!-- Legenda -->
-    <rect x="50" y="420" width="700" height="100" fill="white" stroke="#ddd"/>
-    <circle cx="100" cy="470" r="10" fill="#3498db"/>
-    <text x="120" y="475">Bitcoin</text>
-    
-    <circle cx="250" cy="470" r="10" fill="#2ecc71"/>
-    <text x="270" y="475">Ethereum</text>
-    
-    <circle cx="400" cy="470" r="10" fill="#e74c3c"/>
-    <text x="420" y="475">Binance Coin</text>
-</svg>
-
-```
 
 ## 📋 Detalhes Técnicos
 
@@ -143,7 +101,7 @@ COINS_TO_TRACK=bitcoin,ethereum,binancecoin
 ### Passos de Instalação
 ```bash
 # Clonar repositório
-git clone https://github.com/seu-usuario/crypto-etl-rust.git
+git clone https://github.com/azykey/crypto_etl_project.git
 
 # Acessar diretório
 cd crypto-etl-rust
@@ -195,11 +153,10 @@ Preparei uma documentação abrangente que inclui:
 1. Estrutura detalhada do projeto
 2. Diagramas de arquitetura (Mermaid)
 3. Fluxograma de dados
-4. SVG de dashboard conceitual
-5. Detalhes técnicos
-6. Guia de instalação
-7. Métricas de desempenho
-8. Roadmap de desenvolvimento
+4. Detalhes técnicos
+5. Guia de instalação
+6. Métricas de desempenho
+7. Roadmap de desenvolvimento
 
 
 **Crypto ETL Project** 
