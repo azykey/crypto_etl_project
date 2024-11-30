@@ -1,3 +1,47 @@
+**Crypto ETL Project** 
+
+de forma lógica e expressiva, imagine um painel dividido em três áreas distintas, mas conectadas, como partes de uma máquina precisa, onde cada engrenagem desempenha um papel único.
+
+---
+
+**Seção 1: O Horizonte da Extração**  
+- Esta parte do painel é representada como uma rede de canais, capturando informações fluindo diretamente da fonte — a CoinGecko API.  
+- Cada canal carrega dados como um rio levando matéria-prima: preços, capitalização de mercado, volume.  
+- A fonte é dinâmica, sempre em movimento, como o mercado de criptomoedas que nunca dorme.  
+- No centro, um mecanismo — o cliente HTTP — coleta e traduz esses fluxos em pacotes compreensíveis.
+
+---
+
+**Seção 2: O Núcleo da Transformação**  
+- Aqui, os dados brutos passam por um conjunto de filtros representados como prismas que organizam a luz.  
+- Esses prismas refinam, limpam e ajustam os dados, transformando números dispersos em informações coerentes.  
+- Imagine engrenagens com diferentes texturas, simbolizando critérios como "valores positivos" ou "campos obrigatórios".  
+- No final, o prisma emite feixes ordenados — os dados agora têm propósito e clareza, prontos para o próximo estágio.
+
+---
+
+**Seção 3: A Torre de Carregamento**  
+- A última seção é alta e imponente, representando o banco de dados PostgreSQL como uma torre sólida.  
+- É um armazém digital onde cada peça processada encontra seu lugar.  
+- Linhas de transporte — as queries SQL — entram e saem, organizando as informações em estantes bem estruturadas.  
+- Há uma porta giratória no topo: os dados podem ser buscados e utilizados novamente, alimentando análises ou insights futuros.
+
+---
+
+**Ligação Entre as Áreas**  
+- Um trilho conecta as três partes, simbolizando a comunicação interna do projeto, onde cada etapa depende da anterior.  
+- As transições são fluidas, mas robustas, como os processos assíncronos em Rust e as conexões do pool do SQLx.  
+- Ao lado do trilho, pequenos monitores indicam os logs e mensagens, sempre prontos para reportar status ou alertar falhas.
+
+---
+
+**Elemento Central: O Propósito**  
+- No coração do painel, em letras firmes, está a palavra-chave: **CONFIANÇA**.  
+- Este projeto não é apenas um pipeline técnico; é uma ponte que transforma dados em decisões, incertezas em clareza.  
+- Ele serve para quem busca não apenas entender o mercado, mas dominá-lo, armado com ferramentas que revelam o que está oculto nos números.
+
+O painel é, acima de tudo, uma manifestação de equilíbrio entre a lógica implacável das máquinas e a necessidade humana de organização e controle em um mundo digital caótico. Ele simboliza a fusão de precisão técnica e propósito visionário.
+
 # Crypto ETL Project
 
 ## Descrição
