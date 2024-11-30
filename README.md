@@ -272,8 +272,17 @@ sqlx::query!(
 
 ---
 
-## **Licença**
-Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT](https://mit-license.org/). Consulte o arquivo `LICENSE` para mais detalhes.
+
+
+---
+
+## **Licença**  
+
+Este projeto está licenciado sob a [Licença MIT](https://mit-license.org/). Consulte o arquivo `LICENSE` incluído no repositório para mais detalhes.  
+
+Para mais informações, visite [https://mit-license.org/](https://mit-license.org/).  
+
+---
 
 ---
 
